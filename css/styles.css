@@ -1,0 +1,115 @@
+/****************************TAG selectors ****************************/
+body {
+  font-family: 'Red Hat Display', sans-serif;
+
+}
+
+h1 {
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: bold;
+}
+h4 {
+  padding-bottom: 20px;
+  color: grey;
+}
+
+h4:hover {
+  color: black;
+}
+/****************************CLASS selectors ****************************/
+.html-base {
+  background-color: #F9F9F9;
+  width: 30%;
+  margin: 5% auto;
+  padding: 0;
+  text-align: center;
+  border-radius: 20px;
+
+}
+
+.hero-img {
+  max-width: 100%;
+  max-height: auto;
+  border-radius: 20px 20px 0 0;
+
+}
+
+.order {
+  line-height: 2;
+  margin: auto 10%;
+  color: grey;
+}
+
+.plan {
+   background-color: #E8F6EF;
+   height: 96px;
+   width: 90%;
+   margin: 10px auto;
+   position: relative;
+}
+
+.cont1 {
+   display: inline-block;
+   left: 15px;
+   top: 20px;
+   position: absolute;
+}
+
+.cont2{
+  text-align: left;
+  line-height: 1;
+  display: inline-block;
+  position: absolute;
+  left: 80px;
+}
+
+.cont3{
+  position: absolute;
+  text-align: right;
+  display: inline-block;
+  right: 15px;
+  top:20px;
+}
+.p:hover {
+  color:#867AE9;
+}
+
+.btn {
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   height: 8px;
+   line-height: 8px;
+   color: #FFFFFF;
+   font-family: Verdana;
+   width: 90%;
+   font-size: 22px;
+   font-weight: 100;
+   padding: 23px;
+   margin: 20px auto;
+   background-color: #867AE9;
+   -webkit-box-shadow: 1px 7px 4px 0 #0059A0;
+   -moz-box-shadow: 1px 7px 4px 0 #0059A0;
+   box-shadow: 1px 7px 4px 0 #0059A0;
+   border: solid #337FED 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
